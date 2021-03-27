@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+header,footer{
+    height: 150px;
+    width: 100%;
+    background: darkslateblue;
+}
+.body-cards{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
